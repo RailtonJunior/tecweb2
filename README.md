@@ -1,2 +1,2 @@
 # tecweb2
-Praticando web
+Praticando html/css
