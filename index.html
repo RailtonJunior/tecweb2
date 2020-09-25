@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body>
+    <div class="container d-flex">
+        <div class="card">
+        <form>
+            <div class="form d-flex">
+                <label for="nome">
+                    Nome:
+                </label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+            <div class="form d-flex">
+                <label for="e-mail">
+                    E-mail:
+                </label>
+                <input type="text" id="e-mail" name="e-mail" placeholder="Digite seu Email*" required>
+            </div>
+            <div class="form d-flex">
+                <label for="telefone">
+                    Telefone:
+                </label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone*" required>
+            </div>
+            <div class="form d-flex">
+                <label for="empresa">
+                    Empresa:
+                </label>
+                <input type="text" id="empresa" name="empresa" placeholder="Digite sua Empresa*" required>
+            </div>
+            <div class="form d-flex">
+                <label for="website URL">
+                    Website URL:
+                </label>
+                <input type="text" id="website" name="website" placeholder="Digite seu Website*" required>
+            </div>
+            <button class="btn" type="submit">Baixe agora</button>
+        </form>
+        <!-- <div id="flip">Baixe agora</div> -->
+        <div id="panel">
+            <h3>Obriagdo por se inscrever</h3>
+            <button class="btn-voltar" type="submit">Voltar</button>
+        </div>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
